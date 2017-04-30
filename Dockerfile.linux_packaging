@@ -5,7 +5,7 @@ MAINTAINER fedorov
 WORKDIR /usr/src
 RUN git clone https://github.com/QIICR/dcmqi.git && \
   cd dcmqi/docker && \
-  make docker.generate_package
+  make dcmqi.generate_package
 
 WORKDIR /usr/src/dcmqi/docker
 ENTRYPOINT ["/bin/bash"]
