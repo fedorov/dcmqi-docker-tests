@@ -1,4 +1,4 @@
-FROM thewtex:centos-build
+FROM thewtex/centos-build
 
 MAINTAINER fedorov
 
